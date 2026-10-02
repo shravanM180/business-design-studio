@@ -1,3 +1,7 @@
-import { defineConfig } from 'tsc';
-
-export default defineConfig({});
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
